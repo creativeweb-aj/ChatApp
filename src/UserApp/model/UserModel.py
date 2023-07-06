@@ -1,6 +1,6 @@
 from flask_marshmallow import Schema
 from flask_marshmallow.fields import fields
-from src.services.MainService import MainService, FileByte, DateTimeField
+from src.SharedServices.MainService import MainService, FileByte, DateTimeField
 from config.extension import db
 from werkzeug.security import generate_password_hash, check_password_hash
 

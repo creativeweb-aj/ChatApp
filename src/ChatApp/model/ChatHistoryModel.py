@@ -3,7 +3,7 @@ from flask_marshmallow.fields import fields
 from config.extension import db
 from src.ChatApp.model.ConversationModel import ConversationSchema
 from src.UserApp.model.UserModel import UserSchema
-from src.services.MainService import MainService, DateTimeField
+from src.SharedServices.MainService import MainService, DateTimeField
 
 
 class ChatHistory(db.Model):

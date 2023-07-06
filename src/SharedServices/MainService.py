@@ -4,8 +4,8 @@ import json
 import re
 from flask import Response
 from marshmallow import fields, ValidationError
-from src.services.messages.EnglishMessage import EnglishMessage
-from src.services.messages.ItalianMessage import ItalianMessage
+from src.SharedServices.messages.EnglishMessage import EnglishMessage
+from src.SharedServices.messages.ItalianMessage import ItalianMessage
 
 
 class StatusType(enum.Enum):

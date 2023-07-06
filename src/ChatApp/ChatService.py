@@ -5,7 +5,7 @@ from flask_socketio import ConnectionRefusedError, emit
 from src.ChatApp.model.ChatHistoryModel import ChatHistory
 from src.ChatApp.model.ConversationModel import Conversation
 from src.UserApp.model.UserModel import UserSession
-from src.services.Authentication import Auth
+from src.SharedServices.Authentication import Auth
 
 
 @socketio.on('connect')

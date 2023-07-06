@@ -1,8 +1,8 @@
 from flask import Blueprint
 from src.ChatApp.model.ChatHistoryModel import ChatHistory, ChatHistorySchema
 from src.ChatApp.model.ConversationModel import Conversation, ConversationSchema
-from src.services.Authentication import Auth
-from src.services.MainService import MainService, StatusType
+from src.SharedServices.Authentication import Auth
+from src.SharedServices.MainService import MainService, StatusType
 from src.ChatApp.ChatService import *
 
 ChatApi = Blueprint('chat view', __name__)

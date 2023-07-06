@@ -1,7 +1,7 @@
 from flask import Blueprint, request
 from src.UserApp.model.UserModel import User, UserImage, UserSchema
-from src.services.Authentication import Auth
-from src.services.MainService import MainService, StatusType
+from src.SharedServices.Authentication import Auth
+from src.SharedServices.MainService import MainService, StatusType
 
 UserApi = Blueprint('user view', __name__)
 

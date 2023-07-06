@@ -2,7 +2,7 @@ from flask_marshmallow import Schema
 from flask_marshmallow.fields import fields
 from config.extension import db
 from src.UserApp.model.UserModel import UserSchema
-from src.services.MainService import MainService, DateTimeField
+from src.SharedServices.MainService import MainService, DateTimeField
 
 
 class Conversation(db.Model):

@@ -4,7 +4,7 @@ import datetime
 from flask import request
 from functools import wraps
 from src.UserApp.model.UserModel import User
-from src.services.MainService import MainService, StatusType
+from src.SharedServices.MainService import MainService, StatusType
 
 
 class Auth:
